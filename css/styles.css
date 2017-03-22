@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway:300,400,700');
+
+/*=============UNIVERSALS==============*/
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.orange-text {
+  color:#f8512f;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.red-text {
+  color: red;
+}
+
+.black-text {
+  color:#000;
+}
+
+/*=============HEADER======================*/
+/**============NAV BAR=============*/
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color:#f8512f;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/*============CAROUSEL============*/
+.item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+#wood-background {
+  background-image: url("../img/wood-2.jpg");
+}
+
+#mainlogo {
+  width: 300px;
+  transform: translate(0, 50%);
+}
+
+
+#seating-background {
+  background-image: url("../img/restaurant-2.jpg");
+}
+
+#farm-background {
+  background-image: url("../img/farm-2.jpg");
+}
+
+.item .btn-warning {
+  background-color: #f8512f;
+  border-color: #f8512f;
+}
+
+/*===============OUR STORY=================*/
+.story {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#ourstorytext {
+  font-size: 75px;
+  text-shadow: 1px 1px 4px #0a0a0a;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.dreamtext {
+  font-size: 22px;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  font-size: 200px;
+  z-index: -1;
+  color: rgba(150, 150, 150, 0.3);
+}
+
+/*================FRESNO BEE SECION=========*/
+#fresnobee-background {
+  background-image: url("../img/food_review.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.review-background {
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 5px;
+  transform: translateY(100%);
+}
+
+#fresnobee-background h1 {
+  font-size: 4em;
+  text-shadow: 1px 1px 4px #0a0a0a;
+
+}
+
+#fresnobee-background p {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*================MENU SECTION==========*/
+#menu {
+  background-image: url("../img/black_linen.png");
+  min-height: 800px;
+}
+
+#menu h1{
+  font-size: 6em;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px 12px;
+}
+
+#menu img {
+  width: 100%;
+}
+
+.nav-tabs>li>a:hover, .nav>li>a:focus, .nav>li>a:hover  {
+  border-color: #f8512f;
+  color: #f8512f;
+  background-color: transparent;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #f8512f;
+}
+
+/*===============CONTACT===========*/
+#contact {
+  background-color: #f8512f;
+  height: 700px
+}
+
+.contactheader {
+  margin: 40px 0;
+}
+
+.contactheader h1 {
+  font-size: 50px;
+}
+
+.contact-form {
+  background-color: #FF6633;
+  padding: 20px;
+  margin-right: 150px;
+}
+
+.contact-form label {
+  color: white;
+  padding: 2px;
+}
+
+.robot-button {
+  background-color: #fff;
+  padding: 20px;
+  margin: 5px 0;
+}
+
+.contact-form button {
+  background-color: #fff;
+  color: #eee;
+}
+
+.map iframe{
+  width: 100%;
+}

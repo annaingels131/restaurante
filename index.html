@@ -10,6 +10,278 @@
 </head>
 <body>
 
+<!-- navbar starts -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">
+	      	<img src="img/name-01.png" alt="logo" class="img-responsive">
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Our Story</a></li>
+						<li><a href="#">Reviews</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">Contact Us</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+  <!-- nav bar ends -->
+
+<!-- Carousel starts here -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="wood-background">
+      <img src="img/logo-01.png" alt="Carousel Logo" class="img-responsive center-block" id="mainlogo">
+    </div>
+		<div class="item" id="seating-background">
+		 <div class="carousel-caption">
+			 <h3>Eat Local.</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nemo facere ullam voluptatem qui.</p>
+			 <button type="button" class="btn btn-warning btn-lg">Learn More</button>
+		 </div>
+	 </div>
+		<div class="item" id="farm-background">
+		  <div class="carousel-caption">
+		    <h3>Farm to Table</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nemo unde vel laudantium ea.</p>
+				<button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+		  </div>
+		</div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- Carousel ends here -->
+<!-- Our Story Section Begins -->
+<div class="container">
+	<div class="row story">
+		<!-- Our story headings -->
+		<div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+			<h1 class="lobster-text orange-text" id="ourstorytext">Our Story</h1>
+			<h3 class="raleway-text dreamtext bold">One Man. One Dream.</h3>
+		</div>
+		<!--  Our story paragraphs -->
+		<div class="col-sm-6">
+			<h1 class="year-text">1989</h1>
+			<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur delectus, neque aut nihil sint alias eum reiciendis modi autem eaque eveniet maxime aliquam, cum, nisi! Saepe aperiam unde similique distinctio!</p>
+			<p class="raleway-text text-justify">Deserunt odit praesentium, in ut nobis totam. Sint nesciunt minus cumque, fugit amet ipsum quod illum, tenetur sed odit error. Culpa provident fugit animi optio eligendi velit quidem sunt obcaecati.</p>
+			<p class="raleway-text text-justify">Harum rem, ex officiis atque molestiae animi eos molestias, cumque, reprehenderit commodi mollitia eaque optio voluptatum debitis nesciunt placeat laborum ut maxime enim itaque error iure, quibusdam. Saepe fugiat, hic.</p>
+			<p class="raleway-text text-justify">Incidunt et harum voluptates dolorum, quos obcaecati repudiandae voluptatibus repellat quia quisquam corrupti consequatur cupiditate alias neque molestias impedit, totam eos inventore. Odit corporis tenetur sequi sed, laborum, ullam veniam.</p>
+		</div>
+	</div>
+</div>
+<!-- Our story section ends -->
+<!-- fresno bee section starts-->
+<div class="container-fluid" id="fresnobee-background">
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2 review-background">
+			<h1 class=" lobster-text orange-text text-center">Fresno Bee</h1>
+			<p class="raleway-text white-text text-center review-text">"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite."</p>
+		</div>
+	</div>
+</div>
+<!-- fresno bee section ends -->
+
+<!-- Menu section begins -->
+<div class="container-fluid" id="menu">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h1 class="lobster-text white-text text-center">Menu</h1>
+			<!-- menu nav starts-->
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs nav-justified" role="tablist">
+			    <li role="presentation" class="active"><a href="#appetizer" aria-controls="appetizer" role="tab" data-toggle="tab" class="text-uppercase orange-text">Appetizer</a></li>
+			    <li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab" class="text-uppercase orange-text">Lunch</a></li>
+			    <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab" class="text-uppercase orange-text">Dinner</a></li>
+			    <li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab" class="text-uppercase orange-text">Dessert</a></li>
+			  </ul>
+				<!-- menu nav ends -->
+
+			<!-- Menu panels begin -->
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+					<!-- appetizer begins -->
+			    <div role="tabpanel" class="tab-pane fade in active" id="appetizer">
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/dip.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Appetizer </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/bruschetta.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Appetizer </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/eggplant.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Appetizer </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/meat.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Appetizer </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+					</div>
+					<!-- Appetizer ends-->
+					<!-- Lunch begins -->
+			    <div role="tabpanel" class="tab-pane fade" id="lunch">
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/dip.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Lunch </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/bruschetta.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Lunch </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/eggplant.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Lunch </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/meat.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Lunch </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+			    </div>
+					<!-- lunch ends -->
+			    <div role="tabpanel" class="tab-pane fade" id="dinner">
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/dip.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Dinner </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/eggplant.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Dinner </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/meat.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Dinner </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+						<div class="col-sm-3 col-xs-6 menu-item">
+							<img src="img/bruschetta.jpg" alt="dip" class="img-thumbnail">
+							<h3 class="bold raleway-text text-center">Dinner </h3>
+							<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+						</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="dessert">
+						<div class="col-sm-3 col-xs-6 menu-item">
+						<img src="img/dip.jpg" alt="dip" class="img-thumbnail">
+						<h3 class="bold raleway-text text-center">Dessert </h3>
+						<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 menu-item">
+						<img src="img/bruschetta.jpg" alt="dip" class="img-thumbnail">
+						<h3 class="bold raleway-text text-center">Dessert </h3>
+						<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 menu-item">
+						<img src="img/eggplant.jpg" alt="dip" class="img-thumbnail">
+						<h3 class="bold raleway-text text-center">Dessert </h3>
+						<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 menu-item">
+						<img src="img/meat.jpg" alt="dip" class="img-thumbnail">
+						<h3 class="bold raleway-text text-center">Dessert </h3>
+						<p class="raleway-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium molestias similique perspiciatis, assumenda quae. Voluptatem vitae ab possimus velit nam voluptate consequatur laborum cupiditate.</p>
+					</div>
+			    </div>
+				</div>
+				<!-- Menu panels ends -->
+		</div>
+	</div>
+</div>
+<!-- Menu section ends -->
+
+<!-- Contact section begins  -->
+<div class="container-fluid" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 contactheader">
+				<h1 class="text-uppercase raleway-text bold white-text">Contact us</h1>
+				<p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit optio officia maxime quia. ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quidem minus assumenda, quos ipsam tenetur.</p>
+			</div>
+		</div>
+		<!-- Contact form starts -->
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="contact-form">
+					<label for="exampleInputName">Name: <span class="red-text">*</span></label>
+						<input type="text" class="form-control">
+					<label for="exampleInputEmail">E-Mail: <span class="red-text">*</span></label>
+						<input type="text" class="form-control">
+					<label for="exampleInputSubject">Subject: <span class="red-text">*</span></label>
+						<input type="text" class="form-control">
+					<label for="exampleInputMessage">Message: <span class="red-text">*</span></label>
+						<textarea class="form-control" rows="4"></textarea>
+				<!-- Robot button -->
+					<div class="robot-button">
+						<label>
+					     <input type="checkbox" value="">
+								<span class="black-text"> I'm not a robot</span>
+					   </label>
+					</div>
+				<!-- Robot button -->
+
+					 <button class="center-block btn">Send Message</button>
+
+				 </div>
+			</div>
+			<!-- Contact form ends  -->
+			<div class="col-sm-6">
+
+				<address class="white-text raleway-text address">
+					<p class="text-uppercase bold">Resturante</p>
+					<p>123 Fulton St<br> Fresno,CA 93728<br> P.(123)456-7890
+				</address>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604240146304!2d-119.78796568484398!3d36.73206497996258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1490147854028" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact section ends -->
+
+
+
+
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
